@@ -9,7 +9,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className="calcContainer">
-        <input type="text" id="result" value="...To be continued" disabled />
+        <input type="text" id="result" value="0" disabled />
         <input type="button" className="calcItem" value="AC" />
         <input type="button" className="calcItem" value="+/-" />
         <input type="button" className="calcItem" value="%" />
