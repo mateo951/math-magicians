@@ -1,18 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-const Quantity = ({ quantity }) => (
-  <div>
-    <p>
-      The current date is:
-      { quantity }
-    </p>
-  </div>
-);
-
-Quantity.propTypes = {
-  quantity: PropTypes.number.isRequired,
-};
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -21,7 +7,30 @@ class Calculator extends React.Component {
   }
 
   render() {
-    return <div className="Test"><Quantity quantity={10} /></div>;
+    return (
+      <div className="calcContainer">
+        <input type="text" id="result" value="...To be continued" disabled />
+        <input type="button" className="calcItem" value="AC" />
+        <input type="button" className="calcItem" value="+/-" />
+        <input type="button" className="calcItem" value="%" />
+        <input type="button" className="calcItem operators" value="÷" />
+        <input type="button" className="calcItem" value="7" />
+        <input type="button" className="calcItem" value="8" />
+        <input type="button" className="calcItem" value="9" />
+        <input type="button" className="calcItem operators" value="x" />
+        <input type="button" className="calcItem" value="4" />
+        <input type="button" className="calcItem" value="5" />
+        <input type="button" className="calcItem" value="6" />
+        <input type="button" className="calcItem operators" value="-" />
+        <input type="button" className="calcItem" value="1" />
+        <input type="button" className="calcItem" value="2" />
+        <input type="button" className="calcItem" value="3" />
+        <input type="button" className="calcItem operators" value="+" />
+        <input type="button" className="calcItem cero" value="0" />
+        <input type="button" className="calcItem" value="." />
+        <input type="button" className="calcItem" value="=" />
+      </div>
+    );
   }
 }
 
