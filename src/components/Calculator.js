@@ -1,13 +1,28 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Items = () => <h1>Current Quantity</h1>;
+const Quantity = ({ quantity }) => (
+  <div>
+    <p>
+      The current date is:
+      { quantity }
+    </p>
+  </div>
+);
 
-export default Items;
+Quantity.propTypes = {
+  quantity: PropTypes.number.isRequired,
+};
 
-// class Calculator extends React.Component {
-//   render() {
-//     return <Items quantity={ this.props.quantity }/>;
-//   }
-// }
+class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-// export default Calculator;
+  render() {
+    return <div className="Test"><Quantity quantity={10} /></div>;
+  }
+}
+
+export default Calculator;
