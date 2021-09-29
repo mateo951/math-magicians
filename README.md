@@ -34,7 +34,7 @@ LinkedIn: [@Mateo Villagómez](https://www.linkedin.com/in/mateo-villagómez/)<b
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues](https://github.com/mateo951/to-do-list/issues) page.
+Feel free to check the [issues](https://github.com/mateo951/math-magicians/issues) page.
 
 Show your support
 Give a ⭐️ if you like this project!
