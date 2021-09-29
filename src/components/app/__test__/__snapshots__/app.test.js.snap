@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages test snapshots testing Calculator page 1`] = `
+<input
+  class="calcItem cero"
+  type="button"
+  value="0"
+/>
+`;
+
+exports[`pages test snapshots testing Quote page 1`] = `
+<h1
+  class="quote"
+>
+  A language that does not affect the way you think about programming is not worth knowing.
+</h1>
+`;
+
+exports[`pages test snapshots testing home page 1`] = `
+<h1
+  class="title"
+>
+  Welcome to our page
+</h1>
+`;

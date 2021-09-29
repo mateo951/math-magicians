@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test rendering renders NavLink correctly 1`] = `
+<a
+  class="listitems"
+  href="#/calculator"
+>
+  Calculator
+</a>
+`;
+
+exports[`Test rendering renders NavLink correctly 2`] = `
+<a
+  class="listitems"
+  href="#/quotes"
+>
+  Quotes
+</a>
+`;
+
+exports[`Test rendering renders text correctly 1`] = `
+<h1>
+  Math Magicians
+</h1>
+`;

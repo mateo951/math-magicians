@@ -1,12 +1,12 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import Navigation from './Navigation';
-import Home from './Home';
-import Calculator from './Calculator';
-import Quotes from './Quotes';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import Navigation from '../navigation/Navigation';
+import Home from '../home/Home';
+import Calculator from '../calculator/Calculator';
+import Quotes from '../quotes/Quotes';
 
 const App = () => (
-  <>
+  <Router>
     <Navigation />
     <Switch>
       <Route exact path="/">
@@ -19,7 +19,7 @@ const App = () => (
         <Quotes />
       </Route>
     </Switch>
-  </>
+  </Router>
 );
 
 export default App;

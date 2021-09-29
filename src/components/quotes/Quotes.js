@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './style/quotes.module.css';
+import style from './quotes.module.css';
 
 const Quotes = () => (
   // eslint-disable-next-line max-len
