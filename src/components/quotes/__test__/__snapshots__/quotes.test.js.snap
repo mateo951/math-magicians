@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test rendering renders text correctly 1`] = `
+<h1
+  class="quote"
+>
+  A language that does not affect the way you think about programming is not worth knowing.
+</h1>
+`;
