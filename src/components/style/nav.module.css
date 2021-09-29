@@ -1,0 +1,19 @@
+.navlinks {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.listitems {
+  color: white;
+  text-decoration: none;
+}
+
+.listitems:hover {
+  color: white;
+  text-decoration: underline;
+}
