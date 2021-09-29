@@ -10,8 +10,8 @@ p {
   font-family: sans-serif;
 }
 
-.appContainer {
-  margin-top: 80px;
+ul {
+  list-style-type: none;
 }
 
 .calcContainer {
@@ -63,4 +63,14 @@ p {
 
 .cero {
   width: 130px;
+}
+
+nav {
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #1a2a38;
+  color: white;
 }
