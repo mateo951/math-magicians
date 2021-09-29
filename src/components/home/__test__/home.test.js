@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react';
 import ReactDOM from 'react-dom';
-import { render, screen, cleanup, fireEvent } from '@testing-library/react';
-import Home from "../Home";
+import {
+  render, screen,
+} from '@testing-library/react';
+import Home from '../Home';
 
 let div = null;
 beforeEach(() => {

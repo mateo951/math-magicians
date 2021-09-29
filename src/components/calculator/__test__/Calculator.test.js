@@ -1,6 +1,8 @@
-import React from "react";
+import React from 'react';
 import ReactDOM from 'react-dom';
-import { render, screen, cleanup, fireEvent } from '@testing-library/react';
+import {
+  render, screen, cleanup, fireEvent,
+} from '@testing-library/react';
 import Calculator from '../Calculator';
 
 let div = null;
@@ -13,7 +15,7 @@ afterEach(cleanup);
 
 describe('Test rendering', () => {
   it('renders with out crashing', () => {
-    ReactDOM.render(<Calculator></Calculator>, div);
+    ReactDOM.render(<Calculator />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
@@ -24,7 +26,7 @@ describe('Test rendering', () => {
 
   it('renders calculator operations', () => {
     const operations = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
-    operations.forEach(operation => {
+    operations.forEach((operation) => {
       expect(screen.getByText(operation)).toBeInTheDocument();
     });
   });
@@ -36,9 +38,5 @@ describe('Test rendering', () => {
     fireEvent.click(screen.getByText('='));
 
     expect(screen.getByText('9')).toMatchSnapshot();
-  })
-})
-
-
-
-
+  });
+});

@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import ReactDOM from 'react-dom';
-import { render, screen, cleanup, fireEvent } from '@testing-library/react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import Navigation from "../Navigation";
+import { render, screen } from '@testing-library/react';
+import { HashRouter as Router } from 'react-router-dom';
+import Navigation from '../Navigation';
 
 let div = null;
 beforeEach(() => {

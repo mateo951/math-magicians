@@ -1,10 +1,10 @@
-import React from "react";
-import Calculator from "../../../components/calculator/Calculator";
-import { render, screen, cleanup } from '@testing-library/react';
-import calculate from "../calculate";
+import React from 'react';
+import { render } from '@testing-library/react';
+import Calculator from '../../../components/calculator/Calculator';
+import calculate from '../calculate';
 
 beforeEach(() => {
-  render(<Calculator />)
+  render(<Calculator />);
 });
 
 describe('Test for calculations', () => {
@@ -36,5 +36,4 @@ describe('Test for calculations', () => {
     obj = calculate(obj, '=');
     expect(obj.total).toBeUndefined();
   });
-})
-
+});

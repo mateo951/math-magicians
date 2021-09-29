@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { render, screen } from '@testing-library/react';
-import Quotes from "../Quotes";
+import Quotes from '../Quotes';
 
 let div = null;
 beforeEach(() => {
