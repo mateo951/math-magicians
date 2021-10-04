@@ -6,7 +6,7 @@
 
 Built With
 
-- JS, ES6, REACT
+- JS, REACT
 - Linters, Node.js, Git, Flexbox, Bootstrap, Webpack
 
 [Live Demo: Heroku](https://math-magicians-deploy.herokuapp.com/)
