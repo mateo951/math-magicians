@@ -13,16 +13,38 @@ Built With
 
 ![Alt text](./src/media/demo.png?raw=true)
 
+### Prerequisites
 
+- Git/GitHub;
+- Optional ( IDE installed in your machine ) - recommended IDE: Vscode;
+- Node installed locally;
 
+### Setup
 
-To get a local copy up and running follow these simple example steps.
+- To clone this repo:
+  - Open the Terminal(Mac/Linux) or the Cmd (Windows);
+  - Navigate to where you want to paste the Repo folder;
+  - Type `git clone git@github.com:mateo951/math-magicians.git`;
+  - Open the folder todo-list that was created on your IDE;
 
-- On your terminal and run the following command to clone the repository
+### Install
 
-  `git@github.com:mateo951/math-magicians.git`
+- To install all the dependencies in the package-lock.json:
+  - Open the Terminal(Mac/Linux) or the Cmd (Windows);
+  - Navigate to be inside the math-magicians repo folder;
+  - Run npm install or npm i;
+  
+### Run tests
 
-#### To test the app locally, use Live Server (Extension for VS Code) to avoid js module CORS policy ####
+- Unit Tests:
+  - `npm run test` or `npm test`
+- Linters Tests:
+  - Eslint: run `npx eslint .`
+  - Stylelint: run `npx stylelint "**/*.{css,scss}"`
+- Run a Live Version of the Dist Folder:
+  - Run `npm start`
+- To Deploy to GH-Pages:
+  - Run `npm run deploy`
 
 ### Author ###
 
@@ -34,7 +56,7 @@ LinkedIn: [@Mateo Villagómez](https://www.linkedin.com/in/mateo-villagómez/)<b
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues](https://github.com/mateo951/to-do-list/issues) page.
+Feel free to check the [issues](https://github.com/mateo951/math-magicians/issues) page.
 
 Show your support
 Give a ⭐️ if you like this project!

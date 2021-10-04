@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test rendering 5 + 4 1`] = `
+<input
+  class="calcItem "
+  type="button"
+  value="9"
+/>
+`;
+
+exports[`Test rendering renders text correctly 1`] = `
+<h3
+  class="title"
+>
+  Lets do some math!
+</h3>
+`;
