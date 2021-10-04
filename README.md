@@ -9,7 +9,7 @@ Built With
 - HTML, CSS, JS, ES6, REACT
 - Linters, Node.js, Git, Flexbox, Bootstrap, Webpack
 
-[Live Demo](https://mateo951.github.io/math-magicians/)
+[Live Demo: Heroku](https://math-magicians-deploy.herokuapp.com/)
 
 ![Alt text](./src/media/demo.png?raw=true)
 
