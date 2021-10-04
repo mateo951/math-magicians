@@ -10,6 +10,8 @@ Built With
 - Linters, Node.js, Git, Flexbox, Bootstrap, Webpack
 
 [Live Demo: Heroku](https://math-magicians-deploy.herokuapp.com/)
+[Live Demo: Netlify](https://math-magicians-deploy.netlify.app/)
+
 
 ![Alt text](./src/media/demo.png?raw=true)
 
